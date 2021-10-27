@@ -1,0 +1,19 @@
+{
+	"name": "html-but-js",
+	"version": "1.0.1",
+	"description": "Will allow me to create HTML in JS as if I never left JS.",
+	"main": "./src/index.js",
+	"scripts": {
+		"run": "index.js",
+		"build": "browserify index.js -o --standalone html_but_js > dist/html_but_js_but_bundeled.js"
+	},
+	"module": "./dist/html_but_js_but_bundeled.js",
+	"keywords": [],
+	"author": "aliyss",
+	"license": "ISC",
+	"devDependencies": {
+		"babel-core": "^6.26.3",
+		"babel-preset-es2015": "^6.24.1",
+		"babelify": "^8.0.0"
+	}
+}
