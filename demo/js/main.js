@@ -28,7 +28,7 @@ let project = {
 		attributes: [
 			{
 				name: "href",
-				value: "https://github.com/Aliyss/html-but-js"
+				value: "https://github.com/Asylum-os/html-but-js"
 			},
 			{
 				name: "target",
